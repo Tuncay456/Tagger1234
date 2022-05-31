@@ -46,7 +46,7 @@ bot_token = os.environ.get("TOKEN")
 DATABASE_URL = os.environ.get("DATABASE_URL") # MongoDB veritabanınızın url'si. Nasıl alacağınızı bilmiyorsanız destek grubu @RepoHaneX'e gelin.
 BOT_USERNAME = os.environ.get("BOT_USERNAME") # Botunuzun kullanıcı adı.
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL")) # Botunuzun eylemleri kaydedeceği kayıt grubunun id'si.
-GROUP_SUPPORT = os.environ.get("GROUP_SUPPORT", "SohbetGoVip") # Botunuzdan yasaklanan kullanıcıların itiraz işlemleri için başvuracağı grup, kanal veya kullanıcı. Boş bırakırsanız otomatik olarak OWNER_ID kimliğine yönlendirecektir.
+GROUP_SUPPORT = os.environ.get("GROUP_SUPPORT", "Sohbetttadinda") # Botunuzdan yasaklanan kullanıcıların itiraz işlemleri için başvuracağı grup, kanal veya kullanıcı. Boş bırakırsanız otomatik olarak OWNER_ID kimliğine yönlendirecektir.
 GONDERME_TURU = os.environ.get("GONDERME_TURU", False) # Botunuzun yanıtladığınız mesajı gönderme türü. Eğer direkt iletmek isterseniz False, kopyasını göndermek isterseniz True olarak ayarlayın.
 OWNER_ID = int(os.environ.get("OWNER_ID")) # Sahip hesabın id'si
 LANGAUGE = os.environ.get("LANGAUGE", "TR")
@@ -104,7 +104,7 @@ async def start(event):
                        Button.inline("Komutlar", data="komutlar")
                       ],
                       [
-                       Button.url('Beni Grubuna Ekle', 'https://t.me/StartaggerBot?startgroup=a'),
+                       Button.url('Beni Grubuna Ekle', '@Tegger_utag_bot?startgroup=a'),
                        Button.url('Kanal', 'https://t.me/Sohbetttadinda')
                       ],
                       [
@@ -139,7 +139,7 @@ async def handler(event):
                        Button.url('Kanal', 'https://t.me/Sohbetttadinda')
                       ],
                       [
-                       Button.url('Sahibim', 'https://t.me/Hayiboo')
+                       Button.url('Sahibim', '@baska_zamana')
                       ],
                     ),
                     link_preview=False)
