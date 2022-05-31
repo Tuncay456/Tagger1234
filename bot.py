@@ -74,11 +74,11 @@ async def info(event):
   await event.reply("**Merhaba Benim Ve Sahibim Hakkında Bilgi\n\nPython: 3.8.2\nKütüphanem: Telethon\n\nSahibim: @hi Gruplarınızda Üyeleri Etiketlemek için Yaratılmışım**",
                     buttons=(
                       [
-                       Button.url('Beni Grubuna Ekle ➕', 'https://t.me/Startaggerbot?startgroup=a'),
-                       Button.url('Kanal 📣', 'https://t.me/StarBotKanal')
+                       Button.url('Beni Grubuna Ekle ➕', 'https://t.me/Sohbetttadinda?startgroup=a'),
+                       Button.url('Kanal 📣', 'https://t.me/Sohbetttadinda')
                       ],
                       [
-                       Button.url('Sahibim 🖥️', 'https://t.me/Hayiboo')
+                       Button.url('Sahibim 🖥️', '@baska_zamana')
                       ],
                     ),
                     link_preview=False
@@ -105,10 +105,10 @@ async def start(event):
                       ],
                       [
                        Button.url('Beni Grubuna Ekle', 'https://t.me/StartaggerBot?startgroup=a'),
-                       Button.url('Kanal', 'https://t.me/StarBotKanal')
+                       Button.url('Kanal', 'https://t.me/Sohbetttadinda')
                       ],
                       [
-                       Button.url('Sahibim', 'https://t.me/Hayiboo')
+                       Button.url('Sahibim', '@baska_zamana')
                       ],
                     ),
                     link_preview=False)
@@ -127,8 +127,16 @@ async def handler(event):
                        Button.inline("Komutlar", data="komutlar")
                       ],
                       [
-                       Button.url('Beni Grubuna Ekle', 'https://t.me/StartaggerBot?startgroup=a'),
-                       Button.url('Kanal', 'https://t.me/StarBotKanal')
+                       Button.url('Beni Grubuna Ekle', 'https://t.me/Sohbetttadinda
+
+
+
+
+
+
+
+?startgroup=a'),
+                       Button.url('Kanal', 'https://t.me/Sohbetttadinda')
                       ],
                       [
                        Button.url('Sahibim', 'https://t.me/Hayiboo')
